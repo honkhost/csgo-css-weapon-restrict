@@ -1,0 +1,15 @@
+project:
+  sourceknight: 0.1
+  name: csgo-css-weapon-restrict
+  dependencies:
+    - name: sourcemod
+      type: tar
+      version: 1.10.0-git6536
+      location: https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6536-linux.tar.gz
+      unpack:
+      - source: /addons
+        dest: /addons
+  root: /restrict
+  targets:
+    - weapon_restrict
+  output: /restrict/addons/sourcemod/plugins
